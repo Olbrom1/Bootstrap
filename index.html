@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d589dd91c9.js" crossorigin="anonymous"></script>
+    <title>RWD/Bootstrap</title>
+</head>
+
+<body>
+    <!---------------------NAV BAR------------------------>
+    <section class="nav-bar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-----------------BANNER SECTION------------------->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="tittle">Lorem Ipsum</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est lectus, ultrices quis nisl
+                        eget, aliquet vestibulum diam. Donec vitae ultrices orci. Sed vel pharetra lacus, ac pulvinar
+                        mi.</p>
+
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="team.png" class="img-fluid">
+                </div>
+            </div>
+    </section>
+    <!---------------------SERVICES SECTION------------------------>
+    <section id="services">
+        <div class="container">
+            <h1 class="h">SERVICES</h1>
+            <div class="row text-center">
+                <div class="col-md-4 services">
+                    <i class="fas fa-cogs" style="font-size:100px; margin:20px;"></i>
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae tristique leo. Aliquam
+                        interdum consequat dui, quis sagittis nulla egestas non.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <i class="fas fa-calendar-alt" style="font-size:100px; margin:20px;"></i>
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae tristique leo. Aliquam
+                        interdum consequat dui, quis sagittis nulla egestas non.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <i class="fas fa-handshake" style="font-size:100px; margin:20px;"></i>
+                    <h4>Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae tristique leo. Aliquam
+                        interdum consequat dui, quis sagittis nulla egestas non.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!----------------------ABOUT US------------------------------>
+    <section id="about-us">
+        <div class="container">
+            <h1 class="tittle text-center">ABOUT US</h1>
+            <div class="row">
+                <div class="col-md-6 about-us">
+                    <p class="about-tittle">LOREM IPSUM</p>
+                    <ul>
+                        <li>lorem ipsum</li>
+                        <li>lorem ipsum</li>
+                        <li>lorem ipsum</li>
+                        <li>lorem ipsum</li>
+                        <li>lorem ipsum</li>
+                        <li>lorem ipsum</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="aboutus.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------SOCIAL MEDIA SECTION----------------------------->
+    <section id="social-media">
+        <div class="container text-center">
+            <p>FIND US ON SOCIAL MEDIA</p>
+            <div class="social-icons">
+                <a href="#"><img src="instagram-icon.png"></a>
+                <a href="#"><img src="facebook-icon.png"></a>
+                <a href="#"><img src="twitter-icon.png"></a>
+                <a href="#"><img src="snapchat-icon.png"></a>
+            </div>
+        </div>
+    </section>
+    <!---------------------------FOOTER SECTION------------------------------>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="logo.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis faucibus ligula, sed efficitur
+                        ipsum. Ut ac tellus id urna euismod luctus. Nunc malesuada sed nisi vel facilisis</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT US</b></p>
+                    <p><i class="fas fa-map-marker-alt"></i>Wrocław, Poland</p>
+                    <p><i class="fas fa-phone"></i>+0 123 456 789</p>
+                    <p><i class="fas fa-at"></i>qwerty@gmail.com</p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                    <input type="email" class="form-control" placeholder="Your Email">
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
